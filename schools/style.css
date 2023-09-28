@@ -32,7 +32,7 @@ h1 {
 }
 
 .taskbar a {
-    margin: 0 20px;
+    margin: 0 10px;
     color: #333; /* Dark gray for taskbar links */
     text-decoration: none;
 }
