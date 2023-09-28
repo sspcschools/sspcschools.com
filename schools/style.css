@@ -24,3 +24,19 @@ h1 {
     font-weight: bold;
     color: #ff6600; /* Orange for coming soon text */
 }
+
+.taskbar {
+    background-color: #ffcc00; /* Yellow background for the taskbar */
+    padding: 10px;
+    text-align: center;
+}
+
+.taskbar a {
+    margin: 0 20px;
+    color: #333; /* Dark gray for taskbar links */
+    text-decoration: none;
+}
+
+.taskbar a:hover {
+    color: #000; /* Black on hover */
+}
