@@ -22,6 +22,35 @@ header p {
   margin: 0;
 }
 
+.taskbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.taskbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.taskbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.taskbar li:last-child {
+  margin-right: 0;
+}
+
+.taskbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.taskbar a:hover {
+  text-decoration: underline;
+}
+
 .about, .programs {
   background-color: #fff;
   padding: 20px;
