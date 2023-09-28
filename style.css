@@ -6,6 +6,20 @@ body {
   padding: 50px;
 }
 
+button.console-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.console-button:hover {
+  background-color: #2980b9;
+}
+
 img {
   max-width: 100%;
   height: auto;
