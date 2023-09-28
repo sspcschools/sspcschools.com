@@ -79,8 +79,9 @@ header p {
 }
 
 .gallery .image-container img {
-  max-width: 300px;
+  max-width: 100%; /* Make images responsive */
   height: auto;
+  max-height: 200px; /* Limit the height */
 }
 
 footer {
