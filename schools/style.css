@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+h1 {
+    color: #333; /* Dark gray for headers */
+}
+
+.school-item {
+    margin-bottom: 10px;
+    background-color: #fff; /* White background for each school item */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for each item */
+}
+
+.school-item:hover {
+    background-color: #ffffcc; /* Yellowish background on hover */
+}
+
+.coming-soon {
+    font-weight: bold;
+    color: #ff6600; /* Orange for coming soon text */
+}
