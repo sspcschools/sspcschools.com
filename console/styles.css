@@ -42,16 +42,6 @@ body {
   outline: none;
 }
 
-.btn-edulastic {
-  background: url('edulastic-logo.png') no-repeat 10px center;
-  background-size: 30px 30px;
-}
-
-.btn-gradebook {
-  background: url('gradebook-logo.png') no-repeat 10px center;
-  background-size: 30px 30px;
-}
-
 h1 {
   font-size: 36px;
   color: #333;
