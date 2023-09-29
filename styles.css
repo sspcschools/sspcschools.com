@@ -84,6 +84,18 @@ header p {
   max-height: 200px; /* Limit the height */
 }
 
+.announcement-banner {
+  background-color: #ff5555;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.announcement-banner a {
+  color: #fff;
+  text-decoration: underline;
+}
+
 footer {
   background-color: #333;
   color: #fff;
