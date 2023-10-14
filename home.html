@@ -1,9 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="refresh" content="0;url=/index">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunshine State Public Schools</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Add the SendinBlue script -->
+  <script type="text/javascript">
+    (function() {
+      window.sib = {
+        equeue: [],
+        client_key: "xcg1lr0kaiguuko4engz26xi"
+      };
+      /* OPTIONAL: email for identify request*/
+      // window.sib.email_id = 'example@domain.com';
+      window.sendinblue = {};
+      for (var j = ['track', 'identify', 'trackLink', 'page'], i = 0; i < j.length; i++) {
+        (function(k) {
+          window.sendinblue[k] = function() {
+            var arg = Array.prototype.slice.call(arguments);
+            (window.sib[k] || function() {
+              var t = {};
+              t[k] = arg;
+              window.sib.equeue.push(t);
+            })(arg[0], arg[1], arg[2]);
+          };
+        })(j[i]);
+      }
+      var n = document.createElement("script"),
+        i = document.getElementsByTagName("script")[0];
+      n.type = "text/javascript", n.id = "sendinblue-js",
+      n.async = !0, n.src = "https://sibautomation.com/sa.js?key="+ window.sib.client_key,
+      i.parentNode.insertBefore(n, i), window.sendinblue.page();
+    })();
+  </script>
+
 </head>
 <body>
-  <p>This page has moved. If you are not redirected automatically, <a href="/index">click here</a>.</p>
+  <header>
+    <img src="sspc.png" alt="Sunshine State Public Schools Logo" class="logo">
+    <h1>Welcome to Sunshine State Public Schools</h1>
+    <p>Empowering Future Leaders</p>
+  </header>
+
+  <nav class="taskbar">
+    <ul>
+      <li><a href="https://portal.sspcschools.com">Portal</a></li>
+      <li><a href="https://go.sspcschools.com/schools">Schools</a></li>
+    </ul>
+  </nav>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <p>Welcome to Sunshine State Public Schools, where excellence in education meets a nurturing environment. Our institution is committed to providing a holistic learning experience that fosters creativity, critical thinking, and lifelong learning. We believe in shaping well-rounded individuals who will thrive and contribute to society.</p>
+  </section>
+
+  <section class="programs">
+    <h2>Our Programs</h2>
+    <p>At Sunshine State Public Schools, we offer a wide range of programs designed to meet the diverse needs and interests of our students. Our programs encompass various disciplines, including arts, sciences, technology, sports, and more. Whether you're aspiring to be an artist, a scientist, an athlete, or a scholar, we have a program that will help you achieve your goals and reach your full potential.</p>
+  </section>
+
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <div class="image-container">
+      <img src="image1.jpg" alt="Image 1">
+      <img src="image2.jpeg" alt="Image 2">
+      <img src="image3.jpg" alt="Image 3">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Sunshine State Public Schools</p>
+  </footer>
 </body>
 </html>
